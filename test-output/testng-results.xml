@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-28T09:43:38 IST" name="Suite" finished-at="2025-10-28T09:43:46 IST" duration-ms="8261">
+    <groups>
+    </groups>
+    <test started-at="2025-10-28T09:43:38 IST" name="Test" finished-at="2025-10-28T09:43:46 IST" duration-ms="8261">
+      <class name="pkg1.Orangehrm">
+        <test-method signature="openurl()[pri:0, instance:pkg1.Orangehrm@459e9125]" started-at="2025-10-28T09:43:38 IST" name="openurl" finished-at="2025-10-28T09:43:44 IST" duration-ms="5944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="enteridNpass()[pri:2, instance:pkg1.Orangehrm@459e9125]" started-at="2025-10-28T09:43:44 IST" name="enteridNpass" finished-at="2025-10-28T09:43:45 IST" depends-on-methods="pkg1.Orangehrm.openurl" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteridNpass -->
+        <test-method signature="submit()[pri:3, instance:pkg1.Orangehrm@459e9125]" started-at="2025-10-28T09:43:45 IST" name="submit" finished-at="2025-10-28T09:43:46 IST" depends-on-methods="pkg1.Orangehrm.enteridNpass" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+      </class> <!-- pkg1.Orangehrm -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
